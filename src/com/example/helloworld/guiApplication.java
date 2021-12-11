@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class guiApplication {
 
     public static void main(String[] args) {
-
+// This code is a gui test
         String name = JOptionPane.showInputDialog("Enter your name");
         JOptionPane.showMessageDialog(null,"Hello "+name);
 
