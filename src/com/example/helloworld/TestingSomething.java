@@ -4,14 +4,14 @@ import com.sun.tools.javac.Main;
 
 public class TestingSomething {
 // Car
-    static car car;
+    static car Car;
 
     public static void main(String[] args){
 
         new Main();
-        car = new car(4,4);
+        Car = new car(4,4);
 
-        System.out.println("The car has "+car.getWheels()+" wheels.");
+        System.out.println("The car has "+Car.getWheels()+" wheels.");
 
     }
 
