@@ -5,20 +5,33 @@ import java.util.Scanner;
 public class Hello {
 
     public static void main(String[] args) {
+        // Variables
+        String name;
+        String favFood;
+        int age;
+
+        // Input
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("What is your name? ");
-        String name = scanner.nextLine();
+         name = scanner.nextLine();
+
         System.out.println("What is your age? ");
-        int age = scanner.nextInt();
+
+        age = scanner.nextInt();
         scanner.nextLine();
-        System.out.println("You are: "+age+" years old.");
-        System.out.println("What is your favorite food? ");
-        String food = scanner.nextLine();
-        System.out.println("Your favorite food is: "+food);
+         System.out.println("What is your favorite food? ");
+
+         favFood = scanner.nextLine();
 
 
-        System.out.println("Hello "+name);
+
+
+        // Output
+        System.out.println("Your name is: "+name);
+        System.out.println("Your age is: "+age);
+        System.out.println("Your favorite food is: "+favFood);
+
 
     }
 
