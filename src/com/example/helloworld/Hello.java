@@ -6,7 +6,7 @@ public class Hello {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+        //Git Test
         System.out.println("What is your name? ");
         String name = scanner.nextLine();
         System.out.println("What is your age? ");
